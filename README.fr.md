@@ -4,7 +4,7 @@ nom du référentiel
 
 > Slugline
 
-[References](./REFERENCES.md)
+[Références](./REFERENCES.md)
 
 **Résumé exécutif**
 
@@ -13,11 +13,11 @@ Pour démarrer votre application Flask dans l'environnement par défaut, exécut
     $ cd hatch-blocky
     $ hatch run app
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
-## 200 - Exigences
+## 200 - Requirements
 
 Voir[README.md](./200/README.md)
 

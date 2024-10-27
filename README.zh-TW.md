@@ -8,7 +8,7 @@
 
 **執行摘要**
 
-要在預設環境中啟動 Flask 應用程序，請執行以下命令：
+To start your Flask app in the default environment, run the following:
 
     $ cd hatch-blocky
     $ hatch run app
@@ -17,7 +17,7 @@
 
 看[README.md](./100/README.md)
 
-## 200 - 要求
+## 200 - Requirements
 
 看[README.md](./200/README.md)
 
