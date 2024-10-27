@@ -1,0 +1,96 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hatch-blocky"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Willem van Heemstra", email = "wvanheemstra@icloud.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/vanHeemstraSystems/blocky_yaml#readme"
+Issues = "https://github.com/vanHeemstraSystems/blocky_yaml/issues"
+Source = "https://github.com/vanHeemstraSystems/blocky-yaml"
+
+[tool.hatch.version]
+path = "src/hatch_blocky/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+  "flask"
+]
+[tool.hatch.envs.default.scripts]
+app = "python src/hatch_blocky/app.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/hatch_blocky tests}"
+
+[tool.hatch.envs.test]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "pytest-watcher"
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.10", "3.11"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.12"]
+
+[tool.coverage.run]
+source_pkgs = ["hatch_blocky", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/hatch_blocky/__about__.py",
+]
+
+[tool.coverage.paths]
+hatch_blocky = ["src/hatch_blocky", "*/hatch-blocky/src/hatch_blocky"]
+tests = ["tests", "*/hatch-blocky/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

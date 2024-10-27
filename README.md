@@ -7,7 +7,12 @@ repository-name
 
 **Executive Summary**
 
-Text
+To start your Flask app in the default environment, run the following:
+
+```
+$ cd hatch-blocky
+$ hatch run app
+```
 
 ## 100 - Introduction
 
