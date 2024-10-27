@@ -8,7 +8,10 @@
 
 **執行摘要**
 
-文字
+要在預設環境中啟動 Flask 應用程序，請執行以下命令：
+
+    $ cd hatch-blocky
+    $ hatch run app
 
 ## 100 - 簡介
 
@@ -24,4 +27,4 @@
 
 ## 400 - 結論
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
