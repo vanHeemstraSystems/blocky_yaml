@@ -4,7 +4,7 @@ Repository-Name
 
 > Slugline
 
-[Referenzen](./REFERENCES.md)
+[References](./REFERENCES.md)
 
 **Zusammenfassung**
 
