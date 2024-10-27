@@ -8,7 +8,7 @@ repositorynaam
 
 **Samenvatting**
 
-To start your Flask app in the default environment, run the following:
+Om uw Flask-app in de standaardomgeving te starten, voert u het volgende uit:
 
     $ cd hatch-blocky
     $ hatch run app
