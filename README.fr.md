@@ -4,7 +4,7 @@ nom du référentiel
 
 > Slugline
 
-[Références](./REFERENCES.md)
+[References](./REFERENCES.md)
 
 **Résumé exécutif**
 

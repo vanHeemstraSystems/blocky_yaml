@@ -17,7 +17,7 @@ Führen Sie Folgendes aus, um Ihre Flask-App in der Standardumgebung zu starten:
 
 Sehen[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 – Anforderungen
 
 Sehen[README.md](./200/README.md)
 
