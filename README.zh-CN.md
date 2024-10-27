@@ -2,7 +2,7 @@
 
 # 存储库名称
 
-> Slugline
+> 斯拉格莱恩
 
 [参考](./REFERENCES.md)
 
