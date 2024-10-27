@@ -2,13 +2,13 @@
 
 # 存储库名称
 
-> 斯拉格莱恩
+> Slugline
 
 [参考](./REFERENCES.md)
 
 **执行摘要**
 
-To start your Flask app in the default environment, run the following:
+要在默认环境中启动 Flask 应用程序，请运行以下命令：
 
     $ cd hatch-blocky
     $ hatch run app
