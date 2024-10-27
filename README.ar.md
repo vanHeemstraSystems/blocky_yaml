@@ -2,18 +2,18 @@
 
 # اسم المستودع
 
-> سلوجلاين
+> Slugline
 
 [مراجع](./REFERENCES.md)
 
 **ملخص تنفيذي**
 
-To start your Flask app in the default environment, run the following:
+لبدء تشغيل تطبيق Flask في البيئة الافتراضية، قم بتشغيل ما يلي:
 
     $ cd hatch-blocky
     $ hatch run app
 
-## 100 - Introduction
+## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
@@ -27,4 +27,4 @@ To start your Flask app in the default environment, run the following:
 
 ## 400 - الخاتمة
 
-See [README.md](./400/README.md)
+يرى[README.md](./400/README.md)
