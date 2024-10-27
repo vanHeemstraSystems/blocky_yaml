@@ -8,7 +8,10 @@ Repository-Name
 
 **Zusammenfassung**
 
-Text
+Führen Sie Folgendes aus, um Ihre Flask-App in der Standardumgebung zu starten:
+
+    $ cd hatch-blocky
+    $ hatch run app
 
 ## 100 - Einführung
 
@@ -16,7 +19,7 @@ Sehen[README.md](./100/README.md)
 
 ## 200 – Anforderungen
 
-See [README.md](./200/README.md)
+Sehen[README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 
@@ -24,4 +27,4 @@ Sehen[README.md](./300/README.md)
 
 ## 400 – Fazit
 
-See [README.md](./400/README.md)
+Sehen[README.md](./400/README.md)
