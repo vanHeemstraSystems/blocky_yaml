@@ -6,15 +6,15 @@
 
 [參考](./REFERENCES.md)
 
-**Executive Summary**
+**執行摘要**
 
-Text
+文字
 
 ## 100 - 簡介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
-## 200 - 要求
+## 200 - Requirements
 
 看[README.md](./200/README.md)
 
