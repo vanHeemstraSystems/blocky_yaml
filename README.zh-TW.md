@@ -6,7 +6,7 @@
 
 [參考](./REFERENCES.md)
 
-**執行摘要**
+**Executive Summary**
 
 要在預設環境中啟動 Flask 應用程序，請執行以下命令：
 
@@ -15,7 +15,7 @@
 
 ## 100 - 簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
@@ -27,4 +27,4 @@
 
 ## 400 - 結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
