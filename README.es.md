@@ -8,7 +8,10 @@ nombre-repositorio
 
 **Resumen ejecutivo**
 
-Texto
+Para iniciar su aplicación Flask en el entorno predeterminado, ejecute lo siguiente:
+
+    $ cd hatch-blocky
+    $ hatch run app
 
 ## 100 - Introducción
 
