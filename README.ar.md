@@ -1,8 +1,8 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
-> Slugline
+> سلوجلاين
 
 [مراجع](./REFERENCES.md)
 
