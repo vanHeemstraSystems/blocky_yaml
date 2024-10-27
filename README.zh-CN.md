@@ -8,15 +8,18 @@
 
 **执行摘要**
 
-文本
+To start your Flask app in the default environment, run the following:
 
-## 100 - Introduction
+    $ cd hatch-blocky
+    $ hatch run app
+
+## 100 - 简介
 
 看[README.md](./100/README.md)
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 构建我们的应用程序
 
