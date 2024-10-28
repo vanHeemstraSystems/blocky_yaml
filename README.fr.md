@@ -1,4 +1,4 @@
-nom du référentiel
+repository-name
 
 # Nom du référentiel
 
@@ -6,20 +6,20 @@ nom du référentiel
 
 [Références](./REFERENCES.md)
 
-**Résumé exécutif**
+**Executive Summary**
 
 Pour démarrer votre application Flask dans l'environnement par défaut, exécutez ce qui suit :
 
     $ cd hatch-blocky
     $ hatch run app
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
-## 200 - Exigences
+## 200 - Requirements
 
-Voir[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 - Construire notre application
 
@@ -27,4 +27,4 @@ Voir[README.md](./300/README.md)
 
 ## 400 - Conclusion
 
-Voir[README.md](./400/README.md)
+See [README.md](./400/README.md)
