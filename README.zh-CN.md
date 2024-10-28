@@ -15,13 +15,13 @@
 
 ## 100 - 简介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
 看[README.md](./200/README.md)
 
-## 300 - 构建我们的应用程序
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 

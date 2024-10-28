@@ -8,7 +8,7 @@
 
 **ملخص تنفيذي**
 
-To start your Flask app in the default environment, run the following:
+لبدء تشغيل تطبيق Flask في البيئة الافتراضية، قم بتشغيل ما يلي:
 
     $ cd hatch-blocky
     $ hatch run app

@@ -17,7 +17,7 @@ Pour démarrer votre application Flask dans l'environnement par défaut, exécut
 
 Voir[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Exigences
 
 Voir[README.md](./200/README.md)
 

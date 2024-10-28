@@ -15,7 +15,7 @@ Om uw Flask-app in de standaardomgeving te starten, voert u het volgende uit:
 
 ## 100 - Inleiding
 
-See [README.md](./100/README.md)
+Zien[README.md](./100/README.md)
 
 ## 200 - Vereisten
 
